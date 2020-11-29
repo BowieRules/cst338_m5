@@ -237,8 +237,6 @@ class GUICard
          {
             for (int iSuit = 0; iSuit < iconCards[iValue].length; iSuit++)
             {
-               //numCard will return string at i value
-               //numSuit will return suit at ii value
                String filename = turnIntIntoCardValue(iValue) + 
                      turnIntIntoCardSuit(iSuit) + ".gif";
                iconCards[iValue][iSuit] = new ImageIcon(IMG_FILEPATH +
