@@ -268,7 +268,7 @@ class GUICard
       }
    }
 
-   // turns 0 - 13 into "2", "3", ... "Q", "K", "A", "X"
+   // turns 0 - 13 into "A", "2", "3", ... "Q", "K", "X"
    static String turnIntIntoCardValue(int k)
    {
       return String.valueOf(Card.valuRanks[k]);
